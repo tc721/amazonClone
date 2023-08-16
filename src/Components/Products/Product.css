@@ -1,0 +1,62 @@
+.Product{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+
+    z-index: 1;
+    background-color: white;
+
+
+}
+.price{
+    margin-left: 0;
+}
+
+
+.rating{
+    display: flex;
+    justify-content: center;
+}
+
+.Product > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+.buttonContainer{
+    cursor: pointer;
+    justify-content: center;
+    max-width: 230px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 230px;
+    background-position: -10px -170px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png);
+}
+.add{
+    background-position: right -170px;
+    height: 28px;
+    width: 30%;
+    position: relative;
+    color: #000;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffe093;
+}
+
+.num_price{
+    color: #392;
+    font-size: 18px;
+}

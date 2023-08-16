@@ -1,0 +1,36 @@
+.checkout{
+    display: flex; 
+    padding-top: 68px;
+    background-color: #fff;
+    height: max-content;
+
+}
+.checkoutleft{
+    width: 70%;
+    padding: 20px;
+    background: linear-gradient(to left, rgb(240, 240, 240), transparent);
+}
+.thing{
+    height: 130px; /* Cambia esto según tus necesidades */
+    background: linear-gradient(to bottom, rgb(245, 190, 87), transparent);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: -90px;
+}
+
+.checkout_ad{
+    width: 100%; /* Ancho del contenedor */
+    height: 300px; /* Altura del contenedor */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen dentro del contenedor */
+    margin-bottom: 10px;
+}
+.checkoutTittle{
+    margin-right: 20px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+
+.checkoutright{
+    padding: 20px;
+}

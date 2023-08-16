@@ -1,0 +1,68 @@
+.Header-Container{
+    display: flex;
+    height: 60px;
+    background-color: black;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.Logo{
+    background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB587940754_.png);
+    background-position: 0 1000px;
+    background-repeat: repeat-x;
+    float: left;
+    text-indent: -500px;
+    background-position: -10px -51px;
+    width: 97px;
+    height: 30px;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+.search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+
+}
+.inputSearch{
+height: 12px;
+padding: 12px;
+border: none;
+width: 100%;
+
+}
+.searchIcon{
+    padding: 5px;
+    height: 26px !important;
+    background-color: #cd9042;
+    
+}
+
+
+.Nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.subNav{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.second{
+    font-size: 13px;
+    font-weight: 800;
+} 
+.comprasSpan{
+    color: #fff;
+}
+
